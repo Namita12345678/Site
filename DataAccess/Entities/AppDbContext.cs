@@ -28,7 +28,9 @@ namespace DataAccess.Entities
         //The OnModelCreating is the method where you can configure the model.The instance of the ModelBuilder is passed as the argument to the onModelCreating method. 
         //The ModelBuilder provides the API, which is used to configure the shape, data type, relationships between the models etc.
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
+
         {
+            
         }
     }
 }
